@@ -3,7 +3,7 @@ def merge_sort(array, n = array.length - 1)
         array
     else
         left_array = array[0..(n/2)] 
-        right_array = array[((n/2)+1)..n] #
+        right_array = array[((n/2)+1)..n]
         left = merge_sort(left_array) 
         right = merge_sort(right_array)
         merge(left, right)
@@ -22,7 +22,7 @@ array = [9, 3, 8, 6, 8, 5, 7]
 
 p merge_sort(array)
 
-#why duplicates in my merge sort
+
 
 
 
